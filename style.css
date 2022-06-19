@@ -81,9 +81,10 @@ a {
 .home {
   background-image: url("Images/banner_31.jpg");
   max-width: 100%;
-  max-height: 30%;
+  max-height: 40%;
   text-align: left;
   display: block;
+  background-size: cover;
 }
 .home2 {
   background-color: #EAECF2;
@@ -117,33 +118,32 @@ a {
 
 .words {
   background-color:none;
-  max-width: 30%;
+  max-width: 35%;
   max-height: 20%;
   display: inline-block;
   text-align: center;
   margin-left: 5%;
-  margin-top: 4%;
+  margin-top: 7%;
   margin-bottom: 3%;
 }
 .benson {
   display: inline-block;
-  font-size: 250%;
+  font-size: 400%;
   color: white;
 
 }
-hr.lineone {
-  border: 1px solid white;
-  max-width: 100%;
+.lineone {
+  border: 2px solid white;
+  max-width: 70%;
   max-height: 2%;
   margin-top: -2%;
-
 }
 .general {
   display: inline-block;
   margin-left: 18%;
   margin-right: 18%;
   margin-top: 3%;
-  font-size: 210%;
+  font-size: 300%;
   font-weight: lighter;
   color: white;
 }
@@ -151,13 +151,13 @@ hr.lineone {
   display: inline-block;
   margin-left: 18%;
   margin-right: 18%;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 140%;
   color: white;
 
 }
 .download {
-  margin-top: 5%;
+  margin-top: 4%;
   display: inline-block;
   color: #004A9E;
   background-color: #E2E2E2;
@@ -175,10 +175,11 @@ hr.lineone {
 .social{
   display: inline-block;
   margin-top: 6%;
+  margin-bottom: 8%;
 }
 .yelp{
   display: inline-block;
-  max-width: 4%;
+  max-width: 3%;
   max-height: auto;
   margin-left: 2%;
   margin-right: 2%;
@@ -186,14 +187,14 @@ hr.lineone {
 }
 .google {
   display: inline-block;
-  max-width: 4%;
+  max-width: 3%;
   max-height: auto;
   margin-left: 2%;
   margin-right: 2%;
 }
 .facebook {
   display: inline-block;
-  max-width: 4%;
+  max-width: 3%;
   max-height: auto;
   margin-left: 2%;
   margin-right: 2%;
@@ -208,22 +209,24 @@ hr.lineone {
   display: inline-block;
   text-align: center;
   background-size: cover;
-  padding-top: 3%;
+  padding-top: 7%;
 
 }
 .ourservices {
   display: inline-block;
   font-size: 350%;
   color: #004A9E;
+  padding-bottom: 2%;
 }
 .comprehensive {
   font-size: 170%;
   color: #004A9E;
   font-weight: lighter;
+  margin-bottom: 5%;
 }
 .linetwo {
-  border: 1px solid #004A9E;
-  max-width: 30%;
+  border: 2px solid #004A9E;
+  max-width: 10%;
   max-height: 2%;
   margin-top: -2%;
 }
@@ -250,7 +253,7 @@ hr.lineone {
   text-align: left;
   color: #636363;
   font-weight: lighter;
-  font-size: 105%;
+  font-size: 130%;
   line-height: 150%;
   margin-top: -10
 }
@@ -259,7 +262,7 @@ hr.lineone {
   text-align: left;
   color: #636363;
   font-weight: lighter;
-  font-size: 105%;
+  font-size: 130%;
   line-height: 150%;
   margin-top: 5%;
 }
@@ -278,7 +281,7 @@ hr.lineone {
   color: #636363;
   font-weight: lighter;
   margin-left: 5%;
-  font-size: 105%;
+  font-size: 130%;
   line-height: 150%;
 }
 
@@ -294,12 +297,14 @@ hr.lineone {
   margin-top: 10%;
   color: #004A9E;
   font-size: 400%;
-  margin-bottom: .5%;
+  margin-bottom: 1%;
 }
 .linethree {
-  border: 1px solid #004A9E;
-  max-width: 40%;
+  border: 2px solid #004A9E;
+  max-width: 10%;
   max-height: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .weparticipate {
   color: #004A9E;
@@ -389,15 +394,15 @@ hr.lineone {
   margin-bottom: .5%;
 }
 .linefour {
-  border: 1px solid #004A9E;
-  max-width: 30%;
+  border: 2px solid #004A9E;
+  max-width: 10%;
   max-height: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 .rec1 {
   background-color: white;
-  float:left;
-  width: 20%;
+  display:inline-block;
+  width: 10%;
   text-align: left;
   padding-left: 3%;
   padding-top: 1%;
@@ -407,12 +412,12 @@ hr.lineone {
 }
 .rec2 {
   background-color: white;
-  float: right;
-  width: 20%;
+  display:inline-block;
+  width: 10%;
   text-align: left;
   padding-left: 3%;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   margin-right: 25%;
 }
 .generalinquiries{
@@ -428,6 +433,9 @@ hr.lineone {
   margin-bottom: 10%;
 }
 
+.map {
+  margin-top: 5%;
+}
 
 .end {
   background-color: #666E7A;
@@ -440,7 +448,7 @@ hr.lineone {
   color: white;
   font-weight: lighter;
   font-size: 170%;
-  margin-bottom: -4%
+  margin-bottom: -4%;
 }
 .yelp2{
   display: inline-block;
@@ -467,20 +475,22 @@ hr.lineone {
 .small {
   color: white;
   font-size: lighter;
-  margin-top: 2%;
+  margin-top: -6%;
 }
 .copyright {
   display: inline-block;
   width: 20%;
 }
 .logo2 {
-  float:left;
+  display: block;
   width: 20%;
+  margin: auto;
+  margin-top: 3%;
 }
 .copyrightwords {
   color: #3D3D40;
   font-size: 70%;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .about {
@@ -493,8 +503,8 @@ hr.lineone {
   margin-bottom: .5%;
 }
 .linefive {
-  border: 1px solid #004A9E;
-  max-width: 20%;
+  border: 2px solid #004A9E;
+  max-width: 10%;
   max-height: 2%;
   margin-bottom: 2%;
 }
